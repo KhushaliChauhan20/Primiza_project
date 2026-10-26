@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+     <link rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body style="font-family:'Poppins',sans-serif;">
+    <header id="header"></header>
+
+<section>
+    <div class="background row position-relative align-items-center">
+
+        <!-- Background image on the right -->
+        <div class="sideImg col-12 col-lg-6 ms-auto">
+            <img src="images/contact-us.webp" alt="About Primiza">
+        </div>
+
+        <!-- About Us box overlapping the image -->
+        <div class="aboutHeader rounded-4 p-5 position-absolute">
+            <div class="Us-Font fw-bold">Contact us</div>
+
+            <div class="fontWeight mt-3">
+                <a href="index.html" class="text-decoration-none text-danger">Home</a>
+                - Contact us
+            </div>
+        </div>
+
+    </div>
+
+    <div class="mt-5">
+        <div class="d-flex justify-content-center gradient-text fw-bold animate-text">Get In Touch With Us</div>
+        <div class="text-center text-secondary">At PRIMIZA, customer support is our priority. Contact us for product details, order help, or any assistance you need for your home essentials.</div>
+        <div class="d-flex justify-content-center"><hr style="width: 13%; " class="border border-dark border-2 opacity-100"></div>
+        <div>
+            <div class="row g-4 d-flex align-items-center ms-3 me-3 mt-3">
+
+                <div class="col-lg-6">
+                    <div class="contact-image"><img src="images/Primiza-contact-us.webp" alt="Contact Us"></div>
+                </div>
+
+                <div class="col-lg-6">
+                    <form class="contact-form">
+                        <div class="row g-2 mb-3">
+                            <div class="col-md-6"><input type="text" class="form-control" placeholder="Your Name" required></div>
+                            <div class="col-md-6"><input type="email" class="form-control" placeholder="Your Email" required></div>
+                        </div>
+
+                        <div class="mb-3"><input type="text" class="form-control" placeholder="Subject" required></div>
+                        <div class="mb-3"><textarea class="form-control" placeholder="Message" rows="4" required></textarea></div>
+
+                        <div class="captcha-box mb-3 d-flex align-items-center">
+                            <input type="checkbox" id="robot" class="me-2">
+                            <label for="robot" class="mb-0">I'm not a robot</label>
+                            <i class=""><img src="images/recapcha_img.png" alt="" class="ms-5 captcha-img "></i>
+                        </div>
+
+                        <button type="submit" class="btn send-btn w-100">SEND</button>
+
+                    </form>
+
+                    <div class="row text-center contact-info mt-3 g-2">
+                        <div class="col-12 col-lg-4">
+                            <div class="contact-icon"><i class="bi bi-geo-alt-fill"></i></div>
+                        <h5>Address</h5>
+                        <h6 class="text-secondary">Mavdi, Rajkot- 360004.</h6>
+                    </div>
+
+                    <div class="col-12 col-lg-4">
+                        <div class="contact-icon"><i class="bi bi-telephone"></i></div>
+                        <h5>Phone</h5>
+                        <h6 class="text-secondary">+91 98247 52511</h6>
+                    </div>
+
+                    <div class="col-12 col-lg-4">
+                        <div class="contact-icon"><i class="bi bi-envelope-open"></i></div>
+                        <h5>Email</h5>
+                        <h6 class="text-secondary">sales@primiza.in</h6>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    
+<div class="mt-5">
+    <iframe
+        src="https://maps.google.com/maps?q=Rajkot%2C%20Gujarat%2C%20India&output=embed"
+        width="100%"
+        height="400"
+        style="border:0;"
+        class="iframe"
+        loading="lazy"
+        title="Map showing Rajkot, Gujarat">
+    </iframe>
+</div>
+
+    </div>
+</section>
+
+    <footer id="footer" class=""></footer>
+
+
+ <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.14.2/dist/gsap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.14.2/dist/ScrollTrigger.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>

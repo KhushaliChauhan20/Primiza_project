@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+
+<body style="font-family:'Poppins',sans-serif;">
+    <header id="header"></header>
+
+
+    <div class="background row position-relative align-items-center">
+
+        <!-- Background image on the right -->
+        <div class="sideImg col-12 col-lg-6 ms-auto">
+            <img src="images/about-us-banner-1.webp" alt="About Primiza">
+        </div>
+
+        <!-- About Us box overlapping the image -->
+        <div class="aboutHeader rounded-4 p-5 position-absolute">
+            <div class="Us-Font fw-bold">About us</div>
+
+            <div class="fontWeight mt-3">
+                <a href="index.html" class="text-decoration-none text-danger active">Home</a>
+                - About us
+            </div>
+        </div>
+
+    </div>
+
+
+    <div class="container-fluid mt-5 me-2 ms-2">
+        <div class="row">
+            <div class="col-12 col-lg-6 pe-5 ps-4">
+                <div class="about_Text fw-bold animate-text">Innovating Storage. Elevating Homes.</div>
+                <div class="footerText text-secondary mt-3">PRIMIZA was created to deliver smart, reliable, and
+                    beautifully designed storage and kitchen solutions for modern homes. We believe everyday essentials
+                    should look good and make life easier. With a focus on quality, durability, and thoughtful design,
+                    every product brings order, convenience, and style to your living spaces.</div>
+                <div class="footerText text-secondary mt-3">From versatile kitchenware to innovative storage options,
+                    our range is inspired by real household needs and crafted to simplify your daily routines. At
+                    PRIMIZA, we value the importance of a well-organized home and create solutions that help you live
+                    better every day.</div>
+            </div>
+            <div class="col-12 col-lg-6"><img src="images/About_us.webp" alt="" class="rounded-4 about-img-2"></div>
+        </div>
+    </div>
+
+
+    <div class="visionMissionBlock">
+        <div class="d-flex justify-content-center fw-bold animate-scroll">VISION & MISSION</div>
+        <div class="text-center h1 fw-bold mt-2 animate-scroll">Our Purpose. Our Promise.</div>
+        <div class="text-center text-secondary fs-6 mt-3">Built with trust, crafted with care, and inspired by real
+            homes like yours.</div>
+
+        <div class="row g-4 mt-1 ">
+            <div class="col-12 col-lg-6 animate-left">
+                <div class="VisionMission rounded-4 shadow-lg p-3 m-4">
+                    <img src="images/vision.webp" alt="" class="img-fluid">
+                    <div class="fw-bold mt-4 fs-4">Our Vision</div>
+                    <div class="text-secondary mt-3 footerFont">
+                        To establish PRIMIZA as India’s most reliable and innovative
+                        brand for kitchenware and home-storage solutions—offering
+                        thoughtfully designed products that simplify living and
+                        elevate modern homes.
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-12 col-lg-6 animate-right">
+                <div class="VisionMission rounded-4 shadow-lg p-3 m-4">
+                    <img src="images/mission.webp" alt="" class="img-fluid">
+                    <div class="fw-bold mt-4 fs-4">Our Mission</div>
+                    <div class="text-secondary mt-3 footerFont">
+                        To create durable, practical, and beautifully designed
+                        kitchen and storage essentials that bring comfort,
+                        convenience, and organization to every household—making
+                        everyday living effortless.
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <section class="reviewSec">
+        <div class="row g-3 align-items-center ms-4">
+
+            <div class="col-12 col-lg-6">
+                <div class="reviewImg rounded-4">
+                    <img src="images/review.webp" alt="" class="reviewImg_1 rounded-4 shadow">
+                </div>
+            </div>
+
+            <div class="col-12 col-lg-6">
+                <div class="reviewText">
+                    <div class="fs-1 fw-bold animate-scroll">What our customers say</div>
+
+                    <div class="text-secondary mt-3">
+                        At PRIMIZA, we’re committed to providing reliable,
+                        well-designed products that elevate everyday living.
+                        Here’s what our happy customers share about their
+                        experience with our storage and kitchen essentials.
+                    </div>
+
+                    <div class="position-relative mt-3">
+
+                        <button type="button"
+                            class="btn border rounded-circle bg-white position-absolute top-50 start-0 translate-middle-y z-1"
+                            onclick="scrollImages(-1)" aria-label="Scroll left">
+                            <i class="bi bi-chevron-left"></i>
+                        </button>
+
+                        <div id="imageScroll" class="overflow-x-auto overflow-y-hidden">
+                            <div class="d-flex gap-3 p-3 image-track">
+
+                                <img src="images/reviw_img.png" class="rounded-4 flex-shrink-0 object-fit-cover"
+                                    alt="Image 1">
+
+                                <img src="images/reviw_img.png" class="rounded-4 flex-shrink-0 object-fit-cover"
+                                    alt="Image 2">
+
+                                <img src="images/reviw_img.png" class="rounded-4 flex-shrink-0 object-fit-cover"
+                                    alt="Image 3">
+
+                                <img src="images/reviw_img.png" class="rounded-4 flex-shrink-0 object-fit-cover"
+                                    alt="Image 4">
+
+                                <img src="images/reviw_img.png" class="rounded-4 flex-shrink-0 object-fit-cover"
+                                    alt="Image 5">
+                            </div>
+                        </div>
+                        <button type="button"
+                            class="btn border rounded-circle bg-white position-absolute top-50 end-0 translate-middle-y z-1"
+                            onclick="scrollImages(1)" aria-label="Scroll right">
+                            <i class="bi bi-chevron-right"></i>
+                        </button>
+
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+    <footer id="footer" class="ms-4"></footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.14.2/dist/gsap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.14.2/dist/ScrollTrigger.min.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
