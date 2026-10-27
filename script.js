@@ -1,3 +1,4 @@
+gsap.registerPlugin(ScrollTrigger);
 
 //   LOAD HEADER
 
@@ -212,7 +213,6 @@ function startCount(target, elementId, speed) {
 
 
 
-gsap.registerPlugin(ScrollTrigger);
 
 gsap.from(".animate-text", {
     y: 60,
