@@ -156,20 +156,21 @@ if (images.length > 0) {
 }
 
 //   ZOOM IN / ZOOM OUT
-
 const image = document.querySelector(".scroll-zoom");
 
 if (image) {
     window.addEventListener("scroll", function () {
+
         const rect = image.getBoundingClientRect();
         const windowHeight = window.innerHeight;
 
-        const progress =
+        let progress =
             (windowHeight - rect.top) /
             (windowHeight + rect.height);
 
-        const zoom =
-            1 + Math.max(0, Math.min(1, progress)) * 0.9;
+        progress = Math.max(0, Math.min(1, progress));
+
+        const zoom = 1 + progress * 0.5;
 
         image.style.transform = `scale(${zoom})`;
     });
