@@ -142,12 +142,35 @@
             </ul>
         </div>
                 <div>
-            <button class="catalogue_head rounded-5 fs-6 ps-5 pe-5">CATALOGUE</button>
+            
+<button class="catalogue_head rounded-5 fs-6 ps-5 pe-5">
+    CATALOGUE
+    <span class="catalogue_inner">
+        <span class="catalogue_blobs">
+            <span class="catalogue_blob"></span>
+            <span class="catalogue_blob"></span>
+            <span class="catalogue_blob"></span>
+            <span class="catalogue_blob"></span>
+        </span>
+    </span>
+</button>
+
+<svg xmlns="http://www.w3.org/2000/svg" class="goo-svg">
+    <defs>
+        <filter id="goo">
+            <feGaussianBlur in="SourceGraphic" stdDeviation="10" result="blur" />
+            <feColorMatrix in="blur" mode="matrix"
+                values="1 0 0 0 0
+                        0 1 0 0 0
+                        0 0 1 0 0
+                        0 0 0 21 -7" result="goo" />
+            <feBlend in="SourceGraphic" in2="goo" />
+        </filter>
+    </defs>
+</svg>
+            <!-- <button class="catalogue_head rounded-5 fs-6 ps-5 pe-5">CATALOGUE</button> -->
         </div>
     </div>
 </nav>
-
-
 </body>
-
 </html>
