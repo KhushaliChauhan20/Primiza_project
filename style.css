@@ -19,13 +19,6 @@ body {
     color: red;
 }
 
-.aboutHeader {
-    height: 100%;
-    width: 30%;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.493);
-    border: 1px solid white;
-    background-color: white;
-}
 
 .background {
     position: relative;
@@ -279,6 +272,7 @@ body {
 
 .mainFooter {
     width: 98%;
+    margin-left: 2%;
 }
 
 .footer {
@@ -860,6 +854,7 @@ body {
     transform: scale(1);
     transform-origin: center;
 }
+
 @media (max-width: 576px) {
     .carousel-area {
         height: 280px;
@@ -903,6 +898,10 @@ body {
         font-size: 14px;
     }
 
+    .mainFooter {
+        margin-left: 2%;
+    }
+
     .footerSpace {
         margin-top: 10%;
     }
@@ -927,7 +926,8 @@ body {
     }
 
     .iframe {
-        display: none;
+        /* display: none; */
+        height: 300px;
     }
 
     .footerSpacemain {
@@ -1000,6 +1000,56 @@ body {
     .client {
         text-align: center;
     }
+
+    .Us-Font {
+        font-size: 30px;
+        margin-top: 10%;
+    }
+
+    .aboutHeader {
+        text-align: center;
+    }
+
+    .gradient-text {
+        font-size: 30px;
+    }
+
+    .scroll-zoom {
+        height: 150px;
+        width: 70%;
+    }
+
+    .about_Text {
+        font-size: 30px;
+    }
+
+    .about_page {
+        margin-left: 0%;
+    }
+
+    .plasticStorage {
+        font-size: 30px;
+        margin-top: 4%;
+    }
+    .containerfluid{
+        margin-left: 1%;
+        margin-top: 20%;
+    }
+    .main-image-box {
+        width: 90%;
+        height:100px ;
+    }
+
+}
+.containerfluid{
+    margin-left: 4%;
+}
+.about_page {
+    margin-left: 3%;
+}
+
+.about_desc {
+    padding-right: 5%;
 }
 
 .Text {
@@ -1170,7 +1220,12 @@ body {
 .BlogContainer {
     width: 95%;
     height: 510px;
+
     overflow: hidden;
+}
+
+.row1 {
+    margin-left: 3%;
 }
 
 .blogImg {
@@ -1235,7 +1290,7 @@ body {
         margin-bottom: 14px;
     }
 
-    
+
 }
 
 @media (max-width: 576px) {
@@ -1254,6 +1309,14 @@ body {
     .stat-number+p {
         font-size: 11px;
     }
+
+    .BlogContainer {
+        margin-left: 3%;
+        width: 95%;
+        height: 700px;
+    }
+
+   
 }
 
 .whatsapp-btn {
@@ -1364,8 +1427,12 @@ body {
 .product_img {
     height: fit-content;
     width: 90%;
-
 }
+
+.plasticStorage {
+    font-size: 30px;
+}
+
 .buttonFont {
     font-size: 12px;
 }
